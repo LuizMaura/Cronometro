@@ -1,0 +1,33 @@
+Flutter - É um framework desenvolvido pelo Google para criação de aplicaçõesmóveis multiplataforma (Android e iOS), utilizando uma única base decódigo, 
+          e muito aclamado por sua facilidade em desenvolver aplicaçõescom uma interface intuitiva eagradável. Para a criação dessas interfaces,
+          o Flutter utiliza um conceito de widgets.
+
+Widget te layout - Tem como objetivo posicionar outros widgets ( column, rowm stack ect.)
+Widget de UI ( user interface) - são aqueles visiveis ao usuario final ( text, switch etc.)
+
+
+
+Orientação a objetos e sua importância na construção das aplicações
+
+Objeto - Um bjeto e simplesmente uma coleção de dados (variaveis) e metodos (funções) que atuam sobre esses dados.
+
+Classe - Uma classe é um modelo para o objeto.
+
+1 - A programação orientada a objetos propõe uma representação mais fácil de ser compreendida, pois a relação de cada elemento em termos de um objeto, ou classe, pode ser comparado ao mundo real.
+
+2 - Outro benefício da POO é a reutilização de código. Com a complexidade dos sistemas cada vez mais ampla, o 
+    tempo de desenvolvimento iria aumentar absurdamente, caso não fosse possível a reutilização.
+
+3 - Essa funcionalidade é possível, pois a POO traz representações muito claras de cada um dos elementos que, normalmente, não são interdependentes. 
+    E dessa independência entre as partes do software é que esse código poderá ser reutilizado em outros sistemas no futuro.
+
+4 - Por fim, outra grande vantagem fica por conta da leitura e manutenção de código. 
+    Como sua representação do sistema se aproxima da vivência cotidiana, o entendimento do sistema como um todo é simplificado. 
+    Isso dá liberdade à equipe de desenvolvimento, não ficando dependente de uma só pessoa, como em alguns casos de linguagem estruturada.
+
+5 - Com ela, há também a possibilidade da criação de bibliotecas, com representações de classes, o que torna mais clara a reutilização de códigos.
+
+6 - Afinal, como uma das responsabilidades do desenvolvedor é entender quais são as vantagens e desvantagens de cada um dos paradigmas de programação e, assim, 
+    escolher o que há de melhor para a aplicação do cliente, a escolha da linguagem pesa muito na experiência final do usuário.
+
+

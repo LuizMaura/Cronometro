@@ -1,0 +1,28 @@
+
+Kivy -  Kivy é amigavel ao usar utilizar arquivos .kv que fornece rapido e ptimo desenvolvimento de aplicativos que usam amis a interface do usiario
+        com altas funcionalidades e melhor para o desenvolvimento de aplicativos movies tambem outros aplicativos relacionados a aplicativos multitoque.
+
+PyQt -  O PyQt não é tão amigavel, pois o Qt não é qualquer linguagem, mas usa C++ como linguagem de programação, o que torna o desenvolvimento um pouco 
+        complexo no design da inteface do usuario, porém é rapido e otimo ao ser usado no desenvolvimento de aplicativos de desktop ou quaisquer aplicativos
+        que tem funcionalidade nativas como software de desktop.
+
+NUI -   Natural User Interface, ou interface natural do usuario. NUI é um tipo de interface com o usuario projetado para paracer o mais natural possivel.
+        A ideia por trasde ua inteface de usuario natural é que ele possa aprender facilmente como usar seu software com pouca ou nenhuma instrução.
+
+Padding - Você pode especificar os padding pixels entre o layout e seus filhos.
+        No caso dos padding pixels, você pode especificá-los entre o layout e seus filhos de três maneiras:
+         uma lista de quatro argumentos: [padding_left, padding_top, padding_right, padding_bottom].
+         uma lista de dois argumentos: [padding_horizontal, padding_vertical].
+         um argumento singular: (padding=10).
+
+Spacing - Voce pode adicionar espaço entre os widgets filhos com este argumento.
+
+Orientation - Você pode alterar o padrão Orientation de BoxLayouthorizontal para vertical.
+
+main.py - Este arquivo receberá a estrutura lógica das ações de sua aplicação.
+
+database.py - Este arquivo será responsável pela criação e armazenamento de usuarios 
+
+users.txt - Será o arquivo de cadastro dos seus usuarios e onde o arquivo principal consultará para validar os mesmos.
+
+mk.kv - Será um arquivo kivy que receberá a parte do layout dos botoes e algumas ações dos mesmos

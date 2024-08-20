@@ -1,0 +1,157 @@
+Classes - Definiçãi do Objeto
+
+Conjunto de atributos e funções utilizado como modelo para criação dos objetos.
+
+Podemos dizer que a classe é o projeto do objeto, contendo o código de programação.
+
+-----------------------------------------
+
+Objetos - Instancia de uma classe
+
+Variavel que possui todas as caracteristicas comuns à classe, porem, com valores diferentes
+em seus atributos 
+
+É a execução do código de uma classe.
+
+Quando executamos o código de uma classe é criado um novo objeto na memória.
+
+Uma nova instância de um objeto é um tipo abstrato de informação de um novo tipo de dado.
+
+-----------------------------------------
+
+Abstração - Acesso às utilidades da classe
+
+Ação de utilizar mensagens para acessa os recursos de uma classe.
+
+-----------------------------------------
+
+Atributos - Caracteristicas da classe
+
+Os atributos são caracteristicas do elemento que a classe representa
+
+-----------------------------------------
+
+Função - Ações do objeto com retorno
+
+Função nativa do Python que retorna um valor declarado dentro da classe.
+
+-----------------------------------------
+
+Métodos - Ações do objeto
+
+Função nativa do Python que não possui retorno declarado dentro de uma classe.
+
+-----------------------------------------
+
+Exceção - Tratamento de erros
+
+Controla o fluxo de execuçãi durante um erro.
+
+-----------------------------------------
+
+Mensagem - Chamada a um atributo, método ou função.
+
+----------------------------------------
+
+Herança - Super Classe e Sub Classe
+
+Uma classe pode herdar atributos, métodos e/ou funções de outra.
+
+-----------------------------------------
+
+Encapsulamento - Nivel de Acesso
+
+O encapsulamento permite que os atributos seja vistos somente nas classes onde foram
+declarados, definindo o nível de acessos de atributos, métodos ou funções.
+
+-----------------------------------------
+
+Polimorfismo - Sobrescrita 
+
+Escolher entre atributos, métodos e/ou funções que sobrescrevem ou que foram 
+sobrescritos.
+
+-----------------------------------------
+
+Instancia 
+
+Podemos dizer que a Instancia é o objeto sendo executado.
+
+Quando criamos um novo objeto, afirmamos que estamos criando uma instancia dele.
+
+-----------------------------------------
+
+Atributos(Propriedades) 
+
+Os atributos armazenam as características de uma classe.
+
+Os atributos são as declarações de variáveis da classe.
+
+-----------------------------------------
+
+Métodos - São ações da classe, suas funções.
+
+Representam os estados e ações dos objetos quando instanciados.
+
+-----------------------------------------
+
+>>1. A palavra def é utilizada para a declaração de método. 
+
+>>2. Para definir o construtor adicionamos: underline, underline, a palavra reservada init, underline, underline. 
+O init() é um método especial que será chamado sempre que criarmos um objeto da classe.
+
+>>3. Incluímos o parâmetro obrigatório self, que está presente em todos os métodos. Resumidamente, podemos afirmar que o 
+parâmetro self, neste momento, exporta as características do objeto.
+
+Todo método Python tem self como primeiro parâmetro.
+
+A palavra reservada representa o objeto em si, portanto, sempre que quisermos especificar atributos de objetos, devemos associá-lo à palavra reservada self.
+
+>>1. Com o parâmetro self são passados os parâmetros que serão utilizados para inicialização dos atributos.
+
+-----------------------------------------
+
+Encapsulamento de Dados
+
+Public - É o mais comum entre os modificadores. Ele permite acesso tanto de dentro, quanto de fora de uma classe.
+         Sua implementação se dá por meio do uso do underline ”_” na frente do nome.
+
+Protected - É o mais comum entre os modificadores. Ele permite acesso tanto de dentro, quanto de fora de uma classe.
+         Sua implementação se dá por meio do uso do underline ”_” na frente do nome.
+
+Private - É o mais comum entre os modificadores. Ele permite acesso tanto de dentro, quanto de fora de uma classe.
+         Sua implementação se dá por meio do uso do underline ”_” na frente do nome.
+
+GET - Sempre retornam valores. 
+      O método Get é utilizado para ler os valores internos do objeto e enviá-los como valor de retorno da função.
+
+      Sintaxe dos metodos de acesso 
+      - get_nome do atributo()
+
+        Exemplo:
+
+        get_idade(self):return self._idade
+
+SET - Recebem valores por parâmetros.
+      Os métodos Set recebem argumentos que serão atribuídos a membros internos do objeto.
+
+      Sintaxe dos metodos de acesso 
+
+      - set_nome do atributo
+
+        (valor por parâmetro)
+
+        Exemplo:
+
+        def set_idade(self, valor):
+
+        self.idade=valor
+
+-----------------------------------------
+
+Um decorator é um padrão de projeto de software que permite adicionar comportamento a um objeto já existente, em tempo de execução, ou seja, agrega, de forma dinâmica, 
+responsabilidades adicionais a um objeto.
+
+Na prática, o decorator permite que atributos de uma classe tenham responsabilidades.
+
+
